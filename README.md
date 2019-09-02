@@ -1,1 +1,3 @@
-# Punch-Out!! Speedrun Splitter
+# Enodo Assessment 
+
+npm install / npm start
