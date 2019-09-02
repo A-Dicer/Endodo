@@ -3,7 +3,7 @@ import noUiSlider from 'nouislider'; //NPM for Slider
 import 'nouislider/distribute/nouislider.css';  //cs for Slider
 import "./filter.css";
 
-class Navbar extends Component {
+class Filter extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -185,4 +185,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default Filter;
