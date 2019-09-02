@@ -69,7 +69,7 @@ const MyMapComponent = compose(
                 <p><i className="fas fa-coins"></i> Market Value: ${props.property.ESTIMATED_MARKET_VALUE}</p>
                 <p>
                   <i className="fas fa-map-signs"></i> Street Name: 
-                  { `${props.property.STREET.charAt(0).toUpperCase() + props.property.STREET.slice(1).toLowerCase()} ${props.property.SUFFIX}`}
+                  { ` ${props.property.STREET.charAt(0).toUpperCase() + props.property.STREET.slice(1).toLowerCase()} ${props.property.SUFFIX}`}
                 </p>
                 <p><i className="fas fa-map-marker-alt"></i> Zip Code: {props.property.Zip}</p>
                 <p><i className="fas fa-building"></i> Property Type: {props.property.RES_TYPE.trim() !== "" ? props.property.RES_TYPE : "No Info" }</p>
