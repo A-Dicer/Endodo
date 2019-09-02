@@ -1,0 +1,96 @@
+/* filter --------------------------------------------------------------------- */
+#filter {
+  position: absolute;
+  display: inline-block;
+  left: 176px;
+  top: 10px;
+  width: 200px;
+  z-index: 1;
+  direction: ltr;
+  overflow: hidden;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", Arial, sans-serif;
+  -webkit-user-select: none;
+  font-size: 11px !important;
+  background-color: rgb(255, 255, 255);
+  padding: 1px 6px;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+  transition: height 1s
+}
+
+#filter > img {
+  position: absolute;
+  width: 42px;
+  height: 17px;
+  left: 5px;
+  top: 5px;
+  z-index: 1
+}
+
+/* top ------------------------------------------------------------------------ */
+.top {
+  height: 40px;
+  font-size: 18px;
+  color: #f1f1f1;
+  background: #384b61;
+  z-index: 0
+}
+
+.properties{
+  position: absolute;
+  left: 5px;
+  top: 23px;
+  width: 42px;
+  color: #f1f1f1;
+  background: #384b61;
+  z-index: 2
+}
+.properties > i {color: rgb(233, 92, 36)}
+
+.top > span {position: relative; top: 6px; left: 24px}
+.top > span > i {
+  cursor: pointer;
+  position: relative;
+  right: -4px;
+  top: 2px
+}
+.top > span > i:hover {color: #a8a8a8}
+
+/* bottom --------------------------------------------------------------------- */
+.bottom {margin-top: 7px}
+
+form > label {margin: 0}
+.form-control-sm { height: 21px; padding: 0 5px; margin-bottom: 2px}
+
+.btn-primary {
+  position: relative;
+  top: -10px;
+  color: #fff;
+  background-color: #384b61;
+  border-color: #384b61
+}
+
+/* Slider --------------------------------------------------------------------- */
+.noUi-horizontal .noUi-handle {
+  width: 20px;
+  height: 20px;
+  left: -17px;
+  top: -2px;
+  border-radius: 100px;
+  right: -12px;
+  left: auto;
+  outline: none
+}
+
+html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {right: -12px; left: auto}
+.noUi-handle:before {background: none}
+.noUi-handle:after {background: none}
+.noUi-connect {background: #384b61}
+.noUi-connects {border-radius: 3px; background: #ccc}
+
