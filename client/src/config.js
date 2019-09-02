@@ -1,1 +1,1 @@
-module.exports = {GOOGLE_API: 'AIzaSyDRAm2hj5zpR_77FTlnMq-GDmtVCaEW198'};
+module.exports = {GOOGLE_API: 'your-googlemap-api-key'};
