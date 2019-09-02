@@ -10,5 +10,5 @@ npm install / npm start
 
 ## Demo
 ```bash
-[https://enodo-assessment.herokuapp.com/](https://enodo-assessment.herokuapp.com/)
+https://enodo-assessment.herokuapp.com/
 ```
